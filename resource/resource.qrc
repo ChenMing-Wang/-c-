@@ -1,0 +1,12 @@
+<RCC>
+  <qresource prefix="image">
+    <file>editModel.png</file>
+    <file>detect.png</file>
+    <file>edit.png</file>
+    <file>eraser.png</file>
+    <file>DrawRect.png</file>
+    <file>save.png</file>
+    <file>revocation.png</file>
+    <file>DrawPolyLines.png</file>
+  </qresource>
+</RCC>

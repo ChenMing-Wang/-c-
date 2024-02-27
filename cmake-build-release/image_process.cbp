@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="image_process"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;CMake Files\qt\;CMake Files\qt\5.9.5\;CMake Files\qt\5.9.5\msvc2017_64\;CMake Files\qt\5.9.5\msvc2017_64\lib\;CMake Files\qt\5.9.5\msvc2017_64\lib\cmake\;CMake Files\qt\5.9.5\msvc2017_64\lib\cmake\Qt5Widgets\;CMake Files\qt\5.9.5\msvc2017_64\lib\cmake\Qt5Gui\;CMake Files\qt\5.9.5\msvc2017_64\lib\cmake\Qt5Core\;CMake Files\qt\5.9.5\msvc2017_64\lib\cmake\Qt5Multimedia\;CMake Files\qt\5.9.5\msvc2017_64\lib\cmake\Qt5Network\;CMake Files\qt\5.9.5\msvc2017_64\lib\cmake\Qt5MultimediaWidgets\;CMake Files\qt\5.9.5\msvc2017_64\lib\cmake\Qt5Sql\;CMake Files\qt\5.9.5\msvc2017_64\lib\cmake\Qt5PrintSupport\;CMake Files\opencv\;CMake Files\opencv\opencv\;CMake Files\opencv\opencv\build\;CMake Files\opencv\opencv\build\x64\;CMake Files\opencv\opencv\build\x64\vc15\;CMake Files\opencv\opencv\build\x64\vc15\lib\;CMake Files\resource\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="G:/QtProject/image_process/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="G:/develop/vscode/vvss/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f G:\QtProject\image_process\cmake-build-release\Makefile VERBOSE=1 all"/>
+					<CompileFile command="G:/develop/vscode/vvss/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f G:\QtProject\image_process\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/develop/vscode/vvss/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f G:\QtProject\image_process\cmake-build-release\Makefile VERBOSE=1 clean"/>
+					<DistClean command="G:/develop/vscode/vvss/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f G:\QtProject\image_process\cmake-build-release\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="image_process">
+				<Option output="G:/QtProject/image_process/cmake-build-release/image_process.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/QtProject/image_process/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add option="-DQT_MULTIMEDIA_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add option="-DQT_MULTIMEDIAWIDGETS_LIB"/>
+					<Add option="-DQT_SQL_LIB"/>
+					<Add option="-DQT_PRINTSUPPORT_LIB"/>
+					<Add directory="G:/QtProject/image_process/cmake-build-release"/>
+					<Add directory="G:/QtProject/image_process"/>
+					<Add directory="G:/QtProject/image_process/cmake-build-release/image_process_autogen/include"/>
+					<Add directory="G:/develop/halcon/halcon-21.11.0.0-x64-win64/HALCON-21.11-Progress/include"/>
+					<Add directory="E:/opencv/opencv/build/include"/>
+					<Add directory="E:/qt/5.9.5/msvc2017_64/include"/>
+					<Add directory="E:/qt/5.9.5/msvc2017_64/include/QtWidgets"/>
+					<Add directory="E:/qt/5.9.5/msvc2017_64/include/QtGui"/>
+					<Add directory="E:/qt/5.9.5/msvc2017_64/include/QtANGLE"/>
+					<Add directory="E:/qt/5.9.5/msvc2017_64/include/QtCore"/>
+					<Add directory="E:/qt/5.9.5/msvc2017_64/./mkspecs/win32-msvc"/>
+					<Add directory="E:/qt/5.9.5/msvc2017_64/include/QtMultimedia"/>
+					<Add directory="E:/qt/5.9.5/msvc2017_64/include/QtNetwork"/>
+					<Add directory="E:/qt/5.9.5/msvc2017_64/include/QtMultimediaWidgets"/>
+					<Add directory="E:/qt/5.9.5/msvc2017_64/include/QtSql"/>
+					<Add directory="E:/qt/5.9.5/msvc2017_64/include/QtPrintSupport"/>
+					<Add directory="G:\develop\vscode\vvss\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
+					<Add directory="G:\develop\vscode\vvss\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="G:\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="G:\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="G:\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="G:\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="G:\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="G:/develop/vscode/vvss/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f G:\QtProject\image_process\cmake-build-release\Makefile VERBOSE=1 image_process"/>
+					<CompileFile command="G:/develop/vscode/vvss/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f G:\QtProject\image_process\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/develop/vscode/vvss/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f G:\QtProject\image_process\cmake-build-release\Makefile VERBOSE=1 clean"/>
+					<DistClean command="G:/develop/vscode/vvss/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f G:\QtProject\image_process\cmake-build-release\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="image_process/fast">
+				<Option output="G:/QtProject/image_process/cmake-build-release/image_process.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/QtProject/image_process/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add option="-DQT_MULTIMEDIA_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add option="-DQT_MULTIMEDIAWIDGETS_LIB"/>
+					<Add option="-DQT_SQL_LIB"/>
+					<Add option="-DQT_PRINTSUPPORT_LIB"/>
+					<Add directory="G:/QtProject/image_process/cmake-build-release"/>
+					<Add directory="G:/QtProject/image_process"/>
+					<Add directory="G:/QtProject/image_process/cmake-build-release/image_process_autogen/include"/>
+					<Add directory="G:/develop/halcon/halcon-21.11.0.0-x64-win64/HALCON-21.11-Progress/include"/>
+					<Add directory="E:/opencv/opencv/build/include"/>
+					<Add directory="E:/qt/5.9.5/msvc2017_64/include"/>
+					<Add directory="E:/qt/5.9.5/msvc2017_64/include/QtWidgets"/>
+					<Add directory="E:/qt/5.9.5/msvc2017_64/include/QtGui"/>
+					<Add directory="E:/qt/5.9.5/msvc2017_64/include/QtANGLE"/>
+					<Add directory="E:/qt/5.9.5/msvc2017_64/include/QtCore"/>
+					<Add directory="E:/qt/5.9.5/msvc2017_64/./mkspecs/win32-msvc"/>
+					<Add directory="E:/qt/5.9.5/msvc2017_64/include/QtMultimedia"/>
+					<Add directory="E:/qt/5.9.5/msvc2017_64/include/QtNetwork"/>
+					<Add directory="E:/qt/5.9.5/msvc2017_64/include/QtMultimediaWidgets"/>
+					<Add directory="E:/qt/5.9.5/msvc2017_64/include/QtSql"/>
+					<Add directory="E:/qt/5.9.5/msvc2017_64/include/QtPrintSupport"/>
+					<Add directory="G:\develop\vscode\vvss\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
+					<Add directory="G:\develop\vscode\vvss\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="G:\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="G:\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="G:\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="G:\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="G:\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="G:/develop/vscode/vvss/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f G:\QtProject\image_process\cmake-build-release\Makefile VERBOSE=1 image_process/fast"/>
+					<CompileFile command="G:/develop/vscode/vvss/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f G:\QtProject\image_process\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/develop/vscode/vvss/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f G:\QtProject\image_process\cmake-build-release\Makefile VERBOSE=1 clean"/>
+					<DistClean command="G:/develop/vscode/vvss/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f G:\QtProject\image_process\cmake-build-release\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="G:/QtProject/image_process/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="G:/develop/vscode/vvss/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f G:\QtProject\image_process\cmake-build-release\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="G:/develop/vscode/vvss/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f G:\QtProject\image_process\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/develop/vscode/vvss/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f G:\QtProject\image_process\cmake-build-release\Makefile VERBOSE=1 clean"/>
+					<DistClean command="G:/develop/vscode/vvss/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f G:\QtProject\image_process\cmake-build-release\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="G:/QtProject/image_process/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="G:/develop/vscode/vvss/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f G:\QtProject\image_process\cmake-build-release\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="G:/develop/vscode/vvss/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f G:\QtProject\image_process\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/develop/vscode/vvss/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f G:\QtProject\image_process\cmake-build-release\Makefile VERBOSE=1 clean"/>
+					<DistClean command="G:/develop/vscode/vvss/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f G:\QtProject\image_process\cmake-build-release\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="image_process_autogen">
+				<Option working_dir="G:/QtProject/image_process/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="G:/develop/vscode/vvss/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f G:\QtProject\image_process\cmake-build-release\Makefile VERBOSE=1 image_process_autogen"/>
+					<CompileFile command="G:/develop/vscode/vvss/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f G:\QtProject\image_process\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/develop/vscode/vvss/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f G:\QtProject\image_process\cmake-build-release\Makefile VERBOSE=1 clean"/>
+					<DistClean command="G:/develop/vscode/vvss/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe /NOLOGO /f G:\QtProject\image_process\cmake-build-release\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="G:/QtProject/image_process/Image_adjust/image_adjust.cpp">
+			<Option target="image_process"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/Image_adjust/image_adjust.h">
+			<Option target="image_process"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/MyLabel.cpp">
+			<Option target="image_process"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/MyLabel.h">
+			<Option target="image_process"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/cmake-build-release/image_process_autogen/6WJNPILU4A/qrc_resource.cpp">
+			<Option target="image_process"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/cmake-build-release/image_process_autogen/6WJNPILU4A/qrc_resource.cpp.rule">
+			<Option target="image_process"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/cmake-build-release/image_process_autogen/include/ui_graphics.h">
+			<Option target="image_process"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/cmake-build-release/image_process_autogen/include/ui_widget.h">
+			<Option target="image_process"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/cmake-build-release/image_process_autogen/mocs_compilation.cpp">
+			<Option target="image_process"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/energy/energy.cpp">
+			<Option target="image_process"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/energy/energy.h">
+			<Option target="image_process"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/graphics.ui">
+			<Option target="image_process"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/graphics/graphics.cpp">
+			<Option target="image_process"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/graphics/graphics.h">
+			<Option target="image_process"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/graphics/graphicsPathItem.cpp">
+			<Option target="image_process"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/graphics/graphicsPathItem.h">
+			<Option target="image_process"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/graphics/graphicsscene.cpp">
+			<Option target="image_process"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/graphics/graphicsscene.h">
+			<Option target="image_process"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/graphics/graphicsview.cpp">
+			<Option target="image_process"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/graphics/graphicsview.h">
+			<Option target="image_process"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/main.cpp">
+			<Option target="image_process"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/resource/resource.qrc">
+			<Option target="image_process"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/widget.cpp">
+			<Option target="image_process"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/widget.h">
+			<Option target="image_process"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/widget.ui">
+			<Option target="image_process"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/qt/5.9.5/msvc2017_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\qt\5.9.5\msvc2017_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/qt/5.9.5/msvc2017_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\qt\5.9.5\msvc2017_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/qt/5.9.5/msvc2017_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\qt\5.9.5\msvc2017_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/qt/5.9.5/msvc2017_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\qt\5.9.5\msvc2017_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/qt/5.9.5/msvc2017_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\qt\5.9.5\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/qt/5.9.5/msvc2017_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\qt\5.9.5\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/qt/5.9.5/msvc2017_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\qt\5.9.5\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/qt/5.9.5/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+			<Option virtualFolder="CMake Files\qt\5.9.5\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/qt/5.9.5/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+			<Option virtualFolder="CMake Files\qt\5.9.5\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/qt/5.9.5/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+			<Option virtualFolder="CMake Files\qt\5.9.5\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/qt/5.9.5/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+			<Option virtualFolder="CMake Files\qt\5.9.5\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/qt/5.9.5/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\qt\5.9.5\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/qt/5.9.5/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\qt\5.9.5\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/qt/5.9.5/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+			<Option virtualFolder="CMake Files\qt\5.9.5\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/qt/5.9.5/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+			<Option virtualFolder="CMake Files\qt\5.9.5\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/qt/5.9.5/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+			<Option virtualFolder="CMake Files\qt\5.9.5\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/qt/5.9.5/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake">
+			<Option virtualFolder="CMake Files\qt\5.9.5\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/qt/5.9.5/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+			<Option virtualFolder="CMake Files\qt\5.9.5\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/qt/5.9.5/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+			<Option virtualFolder="CMake Files\qt\5.9.5\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/qt/5.9.5/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\qt\5.9.5\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/qt/5.9.5/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\qt\5.9.5\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/qt/5.9.5/msvc2017_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\qt\5.9.5\msvc2017_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/qt/5.9.5/msvc2017_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\qt\5.9.5\msvc2017_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/qt/5.9.5/msvc2017_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\qt\5.9.5\msvc2017_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/qt/5.9.5/msvc2017_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\qt\5.9.5\msvc2017_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/qt/5.9.5/msvc2017_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\qt\5.9.5\msvc2017_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/qt/5.9.5/msvc2017_64/lib/cmake/Qt5Multimedia/Qt5MultimediaConfig.cmake">
+			<Option virtualFolder="CMake Files\qt\5.9.5\msvc2017_64\lib\cmake\Qt5Multimedia\"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/qt/5.9.5/msvc2017_64/lib/cmake/Qt5Multimedia/Qt5MultimediaConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\qt\5.9.5\msvc2017_64\lib\cmake\Qt5Multimedia\"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/qt/5.9.5/msvc2017_64/lib/cmake/Qt5Multimedia/Qt5Multimedia_AudioCaptureServicePlugin.cmake">
+			<Option virtualFolder="CMake Files\qt\5.9.5\msvc2017_64\lib\cmake\Qt5Multimedia\"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/qt/5.9.5/msvc2017_64/lib/cmake/Qt5Multimedia/Qt5Multimedia_DSServicePlugin.cmake">
+			<Option virtualFolder="CMake Files\qt\5.9.5\msvc2017_64\lib\cmake\Qt5Multimedia\"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/qt/5.9.5/msvc2017_64/lib/cmake/Qt5Multimedia/Qt5Multimedia_QM3uPlaylistPlugin.cmake">
+			<Option virtualFolder="CMake Files\qt\5.9.5\msvc2017_64\lib\cmake\Qt5Multimedia\"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/qt/5.9.5/msvc2017_64/lib/cmake/Qt5Multimedia/Qt5Multimedia_QWasapiPlugin.cmake">
+			<Option virtualFolder="CMake Files\qt\5.9.5\msvc2017_64\lib\cmake\Qt5Multimedia\"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/qt/5.9.5/msvc2017_64/lib/cmake/Qt5Multimedia/Qt5Multimedia_QWindowsAudioPlugin.cmake">
+			<Option virtualFolder="CMake Files\qt\5.9.5\msvc2017_64\lib\cmake\Qt5Multimedia\"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/qt/5.9.5/msvc2017_64/lib/cmake/Qt5Multimedia/Qt5Multimedia_WMFServicePlugin.cmake">
+			<Option virtualFolder="CMake Files\qt\5.9.5\msvc2017_64\lib\cmake\Qt5Multimedia\"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/qt/5.9.5/msvc2017_64/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake">
+			<Option virtualFolder="CMake Files\qt\5.9.5\msvc2017_64\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/qt/5.9.5/msvc2017_64/lib/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\qt\5.9.5\msvc2017_64\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/qt/5.9.5/msvc2017_64/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake">
+			<Option virtualFolder="CMake Files\qt\5.9.5\msvc2017_64\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/qt/5.9.5/msvc2017_64/lib/cmake/Qt5MultimediaWidgets/Qt5MultimediaWidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\qt\5.9.5\msvc2017_64\lib\cmake\Qt5MultimediaWidgets\"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/qt/5.9.5/msvc2017_64/lib/cmake/Qt5MultimediaWidgets/Qt5MultimediaWidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\qt\5.9.5\msvc2017_64\lib\cmake\Qt5MultimediaWidgets\"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/qt/5.9.5/msvc2017_64/lib/cmake/Qt5Sql/Qt5SqlConfig.cmake">
+			<Option virtualFolder="CMake Files\qt\5.9.5\msvc2017_64\lib\cmake\Qt5Sql\"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/qt/5.9.5/msvc2017_64/lib/cmake/Qt5Sql/Qt5SqlConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\qt\5.9.5\msvc2017_64\lib\cmake\Qt5Sql\"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/qt/5.9.5/msvc2017_64/lib/cmake/Qt5Sql/Qt5Sql_QMYSQLDriverPlugin.cmake">
+			<Option virtualFolder="CMake Files\qt\5.9.5\msvc2017_64\lib\cmake\Qt5Sql\"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/qt/5.9.5/msvc2017_64/lib/cmake/Qt5Sql/Qt5Sql_QODBCDriverPlugin.cmake">
+			<Option virtualFolder="CMake Files\qt\5.9.5\msvc2017_64\lib\cmake\Qt5Sql\"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/qt/5.9.5/msvc2017_64/lib/cmake/Qt5Sql/Qt5Sql_QPSQLDriverPlugin.cmake">
+			<Option virtualFolder="CMake Files\qt\5.9.5\msvc2017_64\lib\cmake\Qt5Sql\"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/qt/5.9.5/msvc2017_64/lib/cmake/Qt5Sql/Qt5Sql_QSQLiteDriverPlugin.cmake">
+			<Option virtualFolder="CMake Files\qt\5.9.5\msvc2017_64\lib\cmake\Qt5Sql\"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/qt/5.9.5/msvc2017_64/lib/cmake/Qt5PrintSupport/Qt5PrintSupportConfig.cmake">
+			<Option virtualFolder="CMake Files\qt\5.9.5\msvc2017_64\lib\cmake\Qt5PrintSupport\"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/qt/5.9.5/msvc2017_64/lib/cmake/Qt5PrintSupport/Qt5PrintSupportConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\qt\5.9.5\msvc2017_64\lib\cmake\Qt5PrintSupport\"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/qt/5.9.5/msvc2017_64/lib/cmake/Qt5PrintSupport/Qt5PrintSupport_QWindowsPrinterSupportPlugin.cmake">
+			<Option virtualFolder="CMake Files\qt\5.9.5\msvc2017_64\lib\cmake\Qt5PrintSupport\"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/opencv/opencv/build/x64/vc15/lib/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\opencv\opencv\build\x64\vc15\lib\"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/opencv/opencv/build/x64/vc15/lib/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\opencv\opencv\build\x64\vc15\lib\"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/opencv/opencv/build/x64/vc15/lib/OpenCVModules-debug.cmake">
+			<Option virtualFolder="CMake Files\opencv\opencv\build\x64\vc15\lib\"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/opencv/opencv/build/x64/vc15/lib/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\opencv\opencv\build\x64\vc15\lib\"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/opencv/opencv/build/x64/vc15/lib/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\opencv\opencv\build\x64\vc15\lib\"/>
+		</Unit>
+		<Unit filename="G:/QtProject/image_process/resource/resource.qrc">
+			<Option virtualFolder="CMake Files\resource\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

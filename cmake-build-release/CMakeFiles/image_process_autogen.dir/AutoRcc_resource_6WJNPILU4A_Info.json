@@ -1,0 +1,29 @@
+{
+	"BUILD_DIR" : "G:/QtProject/image_process/cmake-build-release/image_process_autogen",
+	"CMAKE_BINARY_DIR" : "G:/QtProject/image_process/cmake-build-release",
+	"CMAKE_CURRENT_BINARY_DIR" : "G:/QtProject/image_process/cmake-build-release",
+	"CMAKE_CURRENT_SOURCE_DIR" : "G:/QtProject/image_process",
+	"CMAKE_SOURCE_DIR" : "G:/QtProject/image_process",
+	"INCLUDE_DIR" : "G:/QtProject/image_process/cmake-build-release/image_process_autogen/include",
+	"INPUTS" : 
+	[
+		"G:/QtProject/image_process/resource/detect.png",
+		"G:/QtProject/image_process/resource/save.png",
+		"G:/QtProject/image_process/resource/DrawPolyLines.png",
+		"G:/QtProject/image_process/resource/edit.png",
+		"G:/QtProject/image_process/resource/revocation.png",
+		"G:/QtProject/image_process/resource/DrawRect.png",
+		"G:/QtProject/image_process/resource/editModel.png",
+		"G:/QtProject/image_process/resource/eraser.png"
+	],
+	"LOCK_FILE" : "G:/QtProject/image_process/cmake-build-release/CMakeFiles/image_process_autogen.dir/AutoRcc_resource_6WJNPILU4A_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "resource" ],
+	"OUTPUT_CHECKSUM" : "6WJNPILU4A",
+	"OUTPUT_NAME" : "qrc_resource.cpp",
+	"RCC_EXECUTABLE" : "E:/qt/5.9.5/msvc2017_64/bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "G:/QtProject/image_process/cmake-build-release/CMakeFiles/image_process_autogen.dir/AutoRcc_resource_6WJNPILU4A_Used.txt",
+	"SOURCE" : "G:/QtProject/image_process/resource/resource.qrc",
+	"VERBOSITY" : 0
+}

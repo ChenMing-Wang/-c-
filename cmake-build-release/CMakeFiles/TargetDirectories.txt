@@ -1,0 +1,4 @@
+G:/QtProject/image_process/cmake-build-release/CMakeFiles/image_process.dir
+G:/QtProject/image_process/cmake-build-release/CMakeFiles/edit_cache.dir
+G:/QtProject/image_process/cmake-build-release/CMakeFiles/rebuild_cache.dir
+G:/QtProject/image_process/cmake-build-release/CMakeFiles/image_process_autogen.dir

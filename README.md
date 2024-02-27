@@ -1,0 +1,12 @@
+txt文本内容：
+第一行存储图像旋转角度
+第二行存储图像行wid_num列height_num芯片单元数
+第三行存储每个图片芯片单元的宽和高的值
+第四到wid_num+4行存储每个芯片单元左上角的坐标
+第wid_num+5行存储铜的二值化阈值和银的二值化阈值（先铜后银）
+
+graphics文件夹：为主窗口的跳转窗口
+graphics文件为ui主文件
+graphicsscene文件重写了QGraphicsScene
+graphicsview文件重写了QGraphicsView
+graphicspathitem文件重写了QGraphicsPathItem

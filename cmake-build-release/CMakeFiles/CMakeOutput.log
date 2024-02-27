@@ -1,0 +1,75 @@
+The system is: Windows - 10.0.22621 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: G:/develop/vscode/vvss/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.16.27048 版
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+CMakeCCompilerId.c
+Microsoft (R) Incremental Linker Version 14.16.27048.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCCompilerId.exe 
+CMakeCCompilerId.obj 
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+
+The C compiler identification is MSVC, found in "G:/QtProject/image_process/cmake-build-release/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: G:/develop/vscode/vvss/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.16.27048 版
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+CMakeCXXCompilerId.cpp
+Microsoft (R) Incremental Linker Version 14.16.27048.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCXXCompilerId.exe 
+CMakeCXXCompilerId.obj 
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+
+The CXX compiler identification is MSVC, found in "G:/QtProject/image_process/cmake-build-release/CMakeFiles/3.23.2/CompilerIdCXX/CMakeCXXCompilerId.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: G:/QtProject/image_process/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):G:/develop/vscode/vvss/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe -f Makefile /nologo cmTC_6e05f\fast && 	G:\develop\vscode\vvss\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64\nmake.exe  -f CMakeFiles\cmTC_6e05f.dir\build.make /nologo -L                  CMakeFiles\cmTC_6e05f.dir\build
+Building C object CMakeFiles/cmTC_6e05f.dir/CMakeCCompilerABI.c.obj
+	"E:\CLion 2022.2\bin\cmake\win\bin\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\cmTC_6e05f.dir\CMakeCCompilerABI.c.obj.d --working-dir=G:\QtProject\image_process\cmake-build-release\CMakeFiles\CMakeTmp --filter-prefix="注意: 包含文件:  " -- G:\develop\vscode\vvss\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64\cl.exe @C:\Users\ROG\AppData\Local\Temp\nm6100.tmp
+CMakeCCompilerABI.c
+?鈷? 鍖呭惈鏂囦欢:  e:\clion 2022.2\bin\cmake\win\share\cmake-3.23\modules\CMakeCompilerABI.h
+Linking C executable cmTC_6e05f.exe
+	"E:\CLion 2022.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_6e05f.dir --rc="G:\Windows Kits\10\bin\10.0.17763.0\x64\rc.exe" --mt="G:\Windows Kits\10\bin\10.0.17763.0\x64\mt.exe" --manifests -- G:\develop\vscode\vvss\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_6e05f.dir\objects1.rsp @C:\Users\ROG\AppData\Local\Temp\nm6298.tmp
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: G:/QtProject/image_process/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):G:/develop/vscode/vvss/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/nmake.exe -f Makefile /nologo cmTC_78c27\fast && 	G:\develop\vscode\vvss\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64\nmake.exe  -f CMakeFiles\cmTC_78c27.dir\build.make /nologo -L                  CMakeFiles\cmTC_78c27.dir\build
+Building CXX object CMakeFiles/cmTC_78c27.dir/CMakeCXXCompilerABI.cpp.obj
+	"E:\CLion 2022.2\bin\cmake\win\bin\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\cmTC_78c27.dir\CMakeCXXCompilerABI.cpp.obj.d --working-dir=G:\QtProject\image_process\cmake-build-release\CMakeFiles\CMakeTmp --filter-prefix="注意: 包含文件:  " -- G:\develop\vscode\vvss\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64\cl.exe @C:\Users\ROG\AppData\Local\Temp\nm6517.tmp
+CMakeCXXCompilerABI.cpp
+?鈷? 鍖呭惈鏂囦欢:  e:\clion 2022.2\bin\cmake\win\share\cmake-3.23\modules\CMakeCompilerABI.h
+Linking CXX executable cmTC_78c27.exe
+	"E:\CLion 2022.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_78c27.dir --rc="G:\Windows Kits\10\bin\10.0.17763.0\x64\rc.exe" --mt="G:\Windows Kits\10\bin\10.0.17763.0\x64\mt.exe" --manifests -- G:\develop\vscode\vvss\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_78c27.dir\objects1.rsp @C:\Users\ROG\AppData\Local\Temp\nm65B4.tmp
+
+
+
